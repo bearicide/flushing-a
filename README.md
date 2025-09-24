@@ -16,6 +16,8 @@ HOW TO OPEN FILES FROM THE REPOSITORY ABOVE AND VIEW THEM IN A BROWSER:
 1. Click the file in the repository
 2. Find the third [...] menu from the top.
 3. Click that and click Download.
+
+You may also Right Click RAW and Open in a New Window or Tab.
    
 Shortcut: Ctrl + Shift + S.
 
