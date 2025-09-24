@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flushing A Diner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      font-family: 'Roboto Slab', serif;
+      background-color: #fff7f0;
+      color: #333;
+    }
+    a { text-decoration: none; color: inherit; }
+    
+    /* Header */
+    header {
+      background-color: #d33f49;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-family: 'Pacifico', cursive;
+    }
+    header h1 { margin: 0; font-size: 3rem; }
+    header p { margin: 0.3rem 0 0; font-size: 1.2rem; font-weight: 400; }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f8b400;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      padding: 1rem 2rem;
+      display: block;
+      font-weight: bold;
+      color: #333;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background-color: #e09e00;
+      color: #fff;
+    }
+
+    /* Hero */
+    .hero {
+      background: url('https://www.facebook.com/FlushingA/photos/a.1234567890123456/1234567890123456') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    /* Sections */
+    .section {
+      background-color: #fff2e6;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      color: #d33f49;
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .flex .section-item {
+      flex: 1 1 250px;
+      background-color: #fff7f0;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .flex .section-item h3 { margin-top: 0; color: #f57c00; }
+    .section img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    /* Specials */
+    .specials {
+      background-color: #ffcc00;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .specials h3 {
+      color: #d33f49;
+      margin-top: 0;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d33f49;
+      color: #fff;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .flex { gap: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Flushing A</h1>
+    <p>Retro Diner Vibes & Delicious Eats</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#specials">Specials</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Come Hungry, Leave Happy!
+  </div>
+
+  <div class="container">
+
+    <!-- Menu Section -->
+    <div id="menu" class="section">
+      <h2>Our Menu</h2>
+      <div class="flex">
+        <div class="section-item">
+          <h3>Burgers</h3>
+          <ul>
+            <li>Classic Cheeseburger</li>
+            <li>Bacon Double Burger</li>
+            <li>Veggie Burger</li>
+          </ul>
+        </div>
+        <div class="section-item">
+          <h3>Hot Dogs</h3>
+          <ul>
+            <li>Classic Hot Dog</li>
+            <li>Chili Cheese Dog</li>
+            <li>Spicy Jalapeno Dog</li>
+          </ul>
+        </div>
+        <div class="section-item">
+          <h3>Milkshakes</h3>
+          <ul>
+            <li>Chocolate</li>
+            <li>Vanilla</li>
+            <li>Strawberry</li>
+            <li>Pumpkin Spice (Seasonal)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specials Section -->
+    <div id="specials" class="specials">
+      <h3>Seasonal Special: Pumpkin Spice Milkshake</h3>
+      <p>Enjoy our limited-time Pumpkin Spice Milkshake, available now through November!</p>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+      <h2>About Us</h2>
+      <p>Flushing A has been serving the community with fresh, fast, and delicious food. Our goal is to make every meal memorable. Come by for a quick bite or stay for the friendly atmosphere and retro vibes!</p>
+      <img src="https://www.facebook.com/FlushingA/photos/a.1234567890123456/1234567890123456" alt="Diner interior">
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> 200 S. Cherry St, Flushing, MI 48433</p>
+      <p><strong>Phone:</strong> (810) 659-3401</p>
+      <p><strong>Email:</strong> info@theflushinga.com</p>
+      <p><strong>Follow us on Facebook:</strong> <a href="https://www.facebook.com/FlushingA/" target="_blank">facebook.com/FlushingA</a></p>
+      <img src="https://www.facebook.com/FlushingA/photos/a.1234567890123456/1234567890123456" alt="Contact image">
+    </div>
+
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Flushing A | All Rights Reserved
+  </div>
+
+</body>
+</html>

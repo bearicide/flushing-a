@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flushing A Diner – 4-Week Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Roboto', sans-serif; margin:0; padding:0; background-color:#fff7f0; color:#333; }
+  .container { max-width: 600px; margin:auto; padding:20px; }
+  h1 { text-align:center; color:#d33f49; font-family: 'Pacifico', cursive; }
+  .week { background-color:#fff2e6; margin-bottom:15px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1); overflow:hidden; }
+  .week-header { padding:15px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+  .week-header h2 { margin:0; font-size:18px; color:#d33f49; }
+  .week-header span { font-size:20px; color:#f57c00; transition:0.3s; }
+  .week-content { padding:0 15px 15px 15px; display:none; animation:fadein 0.3s; }
+  ul { padding-left:20px; }
+  .highlight { background-color:#ffcc00; padding:10px; border-radius:8px; margin:10px 0; }
+  .footer { text-align:center; margin-top:20px; color:#d33f49; font-size:0.9rem; }
+  @keyframes fadein { from {opacity:0;} to {opacity:1;} }
+  @media (max-width:480px){ h1{font-size:22px;} h2{font-size:16px;} p,li{font-size:14px;} }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Flushing A Diner – 4-Week Positivity Plan</h1>
+
+  <!-- Week 1 -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Week 1: Welcome Back, Flushing!</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <p><strong>Theme:</strong> Community connection & nostalgia</p>
+      <h3>In-Restaurant:</h3>
+      <ul>
+        <li>Flashback Thursday – retro music, throwback prices on classic burgers</li>
+        <li>Bring a Friend Special – Buy 1 meal, get the second half off</li>
+      </ul>
+      <h3>Social Media:</h3>
+      <ul>
+        <li>Post old diner photos: “Where Flushing comes together since [year]!”</li>
+        <li>Poll: “Which classic burger should return for a limited-time special?”</li>
+      </ul>
+      <h3>Community Engagement:</h3>
+      <ul>
+        <li>Invite local schools to submit art for a mini gallery displayed in the diner</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Week 2 -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Week 2: Seasonal Specials Kickoff</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <p><strong>Theme:</strong> Fall flavors & seasonal excitement</p>
+      <h3>In-Restaurant:</h3>
+      <ul>
+        <li>Pumpkin Spice Milkshake, Autumn Chili Dog, Maple Bacon Burger</li>
+        <li>Taste Test Tuesday – guests vote on which seasonal item becomes permanent</li>
+      </ul>
+      <h3>Social Media:</h3>
+      <ul>
+        <li>Short TikTok/Reels of milkshake prep: “Fall in a cup!”</li>
+        <li>Customer testimonial or staff spotlight highlighting new items</li>
+      </ul>
+      <h3>Community Engagement:</h3>
+      <ul>
+        <li>Partner with local pumpkin farm – mini pumpkin giveaway or visit photos</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Week 3 -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Week 3: Family & Fun Week</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <p><strong>Theme:</strong> Accessible dining & community warmth</p>
+      <h3>In-Restaurant:</h3>
+      <ul>
+        <li>Family Pack Meals (2 burgers + 2 hot dogs + 2 milkshakes)</li>
+        <li>Kids’ Creativity Hour – coloring sheets or cupcake decorating</li>
+      </ul>
+      <h3>Social Media:</h3>
+      <ul>
+        <li>Contest: “Best family diner photo this week!” Winner gets free dessert</li>
+        <li>Share staff stories about favorite menu items growing up</li>
+      </ul>
+      <h3>Community Engagement:</h3>
+      <ul>
+        <li>Canned goods donation – discount per item: “Flushing A Cares!”</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Week 4 -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Week 4: Community Celebration</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <p><strong>Theme:</strong> Positive local energy & engagement</p>
+      <h3>In-Restaurant:</h3>
+      <ul>
+        <li>Live Music Friday – local bands or solo performers</li>
+        <li>Flushing Pride Day – free cookie with any meal</li>
+      </ul>
+      <h3>Social Media:</h3>
+      <ul>
+        <li>Video reel of events highlighting smiles and fun</li>
+        <li>Thank-you message celebrating loyal customers and staff</li>
+      </ul>
+      <h3>Community Engagement:</h3>
+      <ul>
+        <li>Collaborate with a local business for cross-promotions</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Ongoing Actions -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Ongoing Daily/Weekly Actions</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <ul>
+        <li>Staff Spotlights: post one team member per week with fun facts</li>
+        <li>Positive Quotes or Fun Facts: share uplifting content about Flushing or diner culture</li>
+        <li>Customer Engagement: encourage photos with #FlushingAFun hashtag</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mini Campaigns -->
+  <div class="week">
+    <div class="week-header" onclick="toggleWeek(this)">
+      <h2>Optional Mini Campaigns</h2>
+      <span>+</span>
+    </div>
+    <div class="week-content">
+      <ul>
+        <li>Secret Menu Friday: reveal hidden item; first 20 customers get it free</li>
+        <li>Local Heroes Night: discount for teachers, firefighters, police</li>
+        <li>Interactive Instagram Stories: polls like “Choose next week’s milkshake flavor”</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">&copy; 2025 Flushing A Diner | All Rights Reserved</div>
+</div>
+
+<script>
+  function toggleWeek(header) {
+    const content = header.nextElementSibling;
+    const span = header.querySelector('span');
+    if(content.style.display === "block"){
+      content.style.display = "none";
+      span.textContent = "+";
+    } else {
+      content.style.display = "block";
+      span.textContent = "−";
+    }
+  }
+</script>
+
+</body>
+</html>
