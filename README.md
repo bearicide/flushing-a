@@ -33,9 +33,9 @@ _This GitHub Repository was created by:_
 
 Matt Baier
 
-Manager
-The Flushing A
-200 S. Cherry St.
+Manager//
+The Flushing A//
+200 S. Cherry St.//
 Flushing, MI 48433
 
 matt.baier86@gmail.com
@@ -43,4 +43,6 @@ matt.baier86@gmail.com
 
 
 
-"The definition of insanity isn't doing the same thing over and over and expecting different results. It's telling people the definition of insanity." - The 6ixth Paragon
+The definition of insanity isn't doing the same thing over and over and expecting different results. It's telling people the definition of insanity.
+
+- Someone, probably.
